@@ -7,15 +7,21 @@ import About from "./components/about";
 import NavBar from "./components/navbar";
 
 function App() {
+  const DefaultContainer = () => (
+    <div>
+      <NavBar />
+      <Route component={About} path="/about" />
+      <Route component={Projects} path="/projects" />
+      <Route component={SinglePost} path="/blog/:slug" />
+      <Route component={Blog} path="/blog" />
+    </div>
+  );
+
   return (
     <BrowserRouter>
-      <NavBar />
       <Switch>
         <Route component={Home} path="/" exact />
-        <Route component={About} path="/about" />
-        <Route component={Projects} path="/projects" />
-        <Route component={SinglePost} path="/blog/:slug" />
-        <Route component={Blog} path="/blog" />
+        <Route component={DefaultContainer} />
       </Switch>
     </BrowserRouter>
   );

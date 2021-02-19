@@ -4,14 +4,14 @@ import { SocialIcon } from "react-social-icons";
 
 export default function Nav() {
   return (
-    <header className="bg-gray-500">
+    <header className="bg-black">
       <div className="container mx-auto flex justify-between">
         <nav>
           <NavLink
             to="/"
             exact
             activeClassName="text-black"
-            className="inline-flex items-center py-6 px-3 mr-4 text-gray-100 hover:text-gray-800 text-4xl font-bold cursive tracking-widest"
+            className="inline-flex items-center py-6 px-3 mr-4 text-gray-100 hover:text-white text-4xl font-bold cursive tracking-widest"
           >
             Aref
           </NavLink>
@@ -20,21 +20,21 @@ export default function Nav() {
           <NavLink
             to="/about"
             activeClassName="text-gray-100 bg-gray-700"
-            className="inline-flex items-center py-3 px-3 my-6 rounded text-gray-200 hover:text-gray-800"
+            className="inline-flex items-center py-3 px-3 my-6 rounded text-gray-200 hover:text-white"
           >
             About Me
           </NavLink>
           <NavLink
             to="/projects"
             activeClassName="text-gray-100 bg-gray-700"
-            className="inline-flex items-center py-3 px-3 my-6 rounded text-gray-200 hover:text-gray-800"
+            className="inline-flex items-center py-3 px-3 my-6 rounded text-gray-200 hover:text-white"
           >
             Projects
           </NavLink>
           <NavLink
             to="/blog"
             activeClassName="text-gray-100 bg-gray-700"
-            className="inline-flex items-center py-3 px-3 my-6 rounded text-gray-200 hover:text-gray-800"
+            className="inline-flex items-center py-3 px-3 my-6 rounded text-gray-200 hover:text-white"
           >
             Blog
           </NavLink>
