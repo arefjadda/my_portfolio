@@ -10,10 +10,7 @@ export default function Home() {
       <div className="twinkling"></div>
       <div className="clouds"></div>
       <div className="relative z-10">
-        <div
-          className="flex bg-gray-400 bg-opacity-50 block p-5 mx-auto mt-10 rounded-lg space-y-0 justify-evenly"
-          style={{ width: 270 }}
-        >
+        <div className="bg-gray-400 hidden lg:flex bg-opacity-50 p-5 mx-auto mt-10 rounded-lg space-y-0 justify-evenly lg:w-1/6">
           <nav>
             <NavLink
               to="/about"
@@ -38,15 +35,11 @@ export default function Home() {
             </NavLink>
           </nav>
         </div>
-        <div
-          className="bg-gray-400 bg-opacity-50 block p-5 mt-5 mx-auto rounded-lg space-y-0"
-          style={{ width: 450 }}
-        >
+        <div className="bg-gray-400 bg-opacity-50 block p-5 lg:mt-5 mx-auto rounded-lg space-y-0 w-full lg:w-1/4">
           <img
             src={image}
             alt="Profile Picture"
-            className="rounded-full relative mx-auto"
-            style={{ width: 250 }}
+            className="rounded-full relative mx-auto w-1/2"
           />
           <br />
           <h2 className="text-lg text-5xl font-bold cursive text-center text-white">
@@ -69,10 +62,7 @@ export default function Home() {
           </h3>
           <h3 className="text-base text-center text-white">(647) 780 - 8428</h3>
         </div>
-        <div
-          className="flex bg-gray-400 bg-opacity-50 block p-5 mx-auto mt-5 rounded-lg space-y-0 justify-evenly"
-          style={{ width: 400 }}
-        >
+        <div className="flex bg-gray-400 bg-opacity-50 block p-5 mx-auto mt-1 lg:mt-5 rounded-lg space-y-0 justify-evenly w-full lg:w-1/5">
           <SocialIcon
             url="mailto:arefjadda@gmail.com"
             title="arefjadda@gmail.com"
