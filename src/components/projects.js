@@ -7,7 +7,7 @@ export default function Projects() {
   useEffect(() => {
     sanityClient
       .fetch(
-        `*[_type == "project"]{
+        `*[_type == "project"] | order(date desc) {
             title,
             date,
             tools,
@@ -103,17 +103,6 @@ export default function Projects() {
                       className="rext-gray-500 font-bold hover:underline hover:text-gray-400"
                     >
                       View the github repository{" "}
-                      <span role="img" aria-label="right pointer">
-                        👉
-                      </span>
-                    </a>
-                    <a
-                      href={project.postlink}
-                      target="_blank"
-                      rel="noopener norefferrer"
-                      className="rext-gray-500 font-bold hover:underline hover:text-gray-400"
-                    >
-                      View the blog post{" "}
                       <span role="img" aria-label="right pointer">
                         👉
                       </span>

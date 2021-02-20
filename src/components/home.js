@@ -14,24 +14,15 @@ export default function Home() {
           <nav>
             <NavLink
               to="/about"
-              activeClassName="text-gray-100 bg-gray-700"
-              className="inline-flex items-center mr-6 rounded text-white hover:text-white"
+              className="inline-flex items-center mr-6 rounded text-white hover:text-white font-bold"
             >
               About Me
             </NavLink>
             <NavLink
               to="/projects"
-              activeClassName="text-gray-100 bg-gray-700"
-              className="inline-flex items-center mr-6 rounded text-white hover:text-white"
+              className="inline-flex items-center mr-6 rounded text-white hover:text-white font-bold"
             >
               Projects
-            </NavLink>
-            <NavLink
-              to="/blog"
-              activeClassName="text-gray-100 bg-gray-700"
-              className="inline-flex items-center rounded text-white hover:text-white"
-            >
-              Blog
             </NavLink>
           </nav>
         </div>

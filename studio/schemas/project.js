@@ -25,10 +25,10 @@ export default {
       type: "string",
       options: {
         list: [
-          { value: "personal", title: "Personal" },
-          { value: "school", title: "School" },
-          { value: "online", title: "Online Course / Certificate" },
-          { value: "client", title: "Client" },
+          { value: "Personal", title: "Personal" },
+          { value: "School", title: "School" },
+          { value: "Online", title: "Online Course / Certificate" },
+          { value: "Client", title: "Client" },
         ],
       },
     },
@@ -43,6 +43,13 @@ export default {
     {
       name: "postlink",
       type: "url",
+    },
+  ],
+  orderings: [
+    {
+      title: "Date",
+      name: "endDate",
+      by: [{ field: "date", direction: "desc" }],
     },
   ],
 };

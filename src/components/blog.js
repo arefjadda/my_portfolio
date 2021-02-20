@@ -12,7 +12,7 @@ export default function Blog() {
   useEffect(() => {
     sanityClient
       .fetch(
-        `*[_type == "post"]{
+        `*[_type == "post"] | order(publishedAt asc) {
             title,
             slug,
             mainImage{

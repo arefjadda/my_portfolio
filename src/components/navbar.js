@@ -31,13 +31,6 @@ export default function Nav() {
           >
             Projects
           </NavLink>
-          <NavLink
-            to="/blog"
-            activeClassName="text-gray-100 bg-gray-700"
-            className="inline-flex items-center py-3 px-3 my-6 rounded text-gray-200 hover:text-white"
-          >
-            Blog
-          </NavLink>
         </nav>
         <div className="inline-flex py-3 px-3 my-6">
           <SocialIcon
