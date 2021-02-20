@@ -48,9 +48,8 @@ export default function Projects() {
           My Projects
         </h1>
         <br />
-        <h2 className="text-lg flex justify-center mb-12 text-white">
-          Welcome to my projects page!
-        </h2>
+        <br />
+        <br />
         <section className="grid grid-cols-2 gap-8">
           {projectData &&
             projectData.map((project, index) => (
