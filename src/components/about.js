@@ -125,9 +125,6 @@ export default function About() {
           <br />
           <h2 className="text-xl text-black font-bold">Other Work</h2>
           <br />
-          <h2 className="text-lg text-black">Startup Co-Founder | CANEMBRYO</h2>
-          <p className="text-sm">2014 - 2017 | Toronto, ON</p>
-          <br />
           <h2 className="text-lg text-black">
             Hospital Emergency Volunteer | SNH - Birchmount Hospital
           </h2>
