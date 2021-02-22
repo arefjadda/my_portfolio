@@ -17,6 +17,8 @@
   font-size: 150px;
 }
 
+/* The code for the background below is from WebSonick. Checkout their work at https://codepen.io/WebSonick/ */
+
 @keyframes move-twink-back {
   from {
     background-position: 0 0;
