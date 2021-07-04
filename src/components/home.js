@@ -70,12 +70,14 @@ export default function Home() {
             bgColor="#000"
             fgColor="#fff"
           />
-          <img
-            src={docicon}
-            alt="Resume PDF"
-            title="Resume"
-            className="rounded-full bg-white h-12 w-12"
-          />
+          <a href="https://drive.google.com/file/d/1a-gXwaQYsui3cuBsjLFEue6FAJ4rci2H/view?usp=sharing">
+            <img
+              src={docicon}
+              alt="Resume PDF"
+              title="Resume"
+              className="rounded-full bg-white h-12 w-12"
+            />
+          </a>
           <SocialIcon
             url="https://www.linkedin.com/in/arefjadda/"
             className="h-12 w-12"

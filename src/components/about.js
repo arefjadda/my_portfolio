@@ -95,6 +95,10 @@ export default function About() {
           <br />
           <h2 className="text-xl text-black font-bold">Other Certificates</h2>
           <h2 className="text-lg text-black">
+            DeepLearning.AI | TensorFlow Developer Professional Certificate
+            (2021)
+          </h2>
+          <h2 className="text-lg text-black">
             DeepLearning.AI | Deep Learning Specialization (2021)
           </h2>
           <h2 className="text-lg text-black">
@@ -119,9 +123,39 @@ export default function About() {
           <h2 className="text-xl text-black font-bold">Relevant Experience</h2>
           <br />
           <h2 className="text-lg text-black">
+            Computer Science and Math Tutor
+          </h2>
+          <p className="text-sm">2021 | Toronto, ON</p>
+          <ul>
+            <li className="list-disc list-inside ml-10">
+              Implemented lessons through interesting real-life examples for
+              students to develop passion for the subject.
+            </li>
+            <li className="list-disc list-inside ml-10">
+              Planned lessons for allotted time to strengthen weak subjects and
+              build skills.
+            </li>
+            <li className="list-disc list-inside ml-10">
+              Collaborated with students to complete homework assignments,
+              identify lagging skills and correct weaknesses, which increased
+              their grades by %13.7 on average.
+            </li>
+          </ul>
+          <br />
+          <h2 className="text-lg text-black">
             Web Developer | Green Destiny LLC
           </h2>
           <p className="text-sm">2018 - 2020 | Chicago, IL (remote)</p>
+          <ul>
+            <li className="list-disc list-inside ml-10">
+              Self-taught full-stack web development, converting mockups into
+              usable web presence with HTML, CSS, JS, and WordPress.
+            </li>
+            <li className="list-disc list-inside ml-10">
+              Collaborated with partners on marketing strategies and approaches,
+              boosting website visits by 60%.
+            </li>
+          </ul>
           <br />
           <h2 className="text-xl text-black font-bold">Other Work</h2>
           <br />
@@ -154,7 +188,7 @@ export default function About() {
             Deployment
           </p>
           <br />
-          <h2 className="text-xl text-black font-bold">Other</h2>
+          <h2 className="text-xl text-black font-bold">Soft Skills</h2>
           <p>
             Scrum & Agile | Strong Logical-thinking and Problem-Solving Skills |
             Strong Interpersonal Skills | Bilingual (English & Persian)
