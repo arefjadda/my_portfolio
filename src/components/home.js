@@ -70,7 +70,7 @@ export default function Home() {
             bgColor="#000"
             fgColor="#fff"
           />
-          <a href="https://drive.google.com/file/d/1a-gXwaQYsui3cuBsjLFEue6FAJ4rci2H/view?usp=sharing">
+          <a href="https://drive.google.com/file/d/19jko_8Z-xw5uVEqBHY_P2vdQMUPUxlmx/view?usp=sharing">
             <img
               src={docicon}
               alt="Resume PDF"
